@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Signing you in — VAULT™</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="vault-auth.js"></script>
+<style>body{margin:0;min-height:100vh;background:#080808;color:#f4f0e8;font-family:Arial,sans-serif;display:grid;place-items:center}.box{width:min(520px,90vw);padding:44px;border:1px solid rgba(244,240,232,.14);background:#11100f;text-align:center}.k{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#c9b17d}.v{font-family:Georgia,serif;font-size:54px;margin:15px 0}.m{color:#aaa39a;line-height:1.7;font-size:14px}.err{color:#d9a6a6}.btn{display:inline-block;margin-top:22px;border:1px solid #f4f0e8;padding:12px 18px;color:#f4f0e8;text-decoration:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase}</style></head><body><main class="box"><div class="k">VAULT™</div><div class="v">Signing you in.</div><p id="status" class="m">Please wait while we finish your Google sign-in…</p><a class="btn" id="back" href="login.html">Back to Login</a></main>
+<script>
+(async()=>{
+  const status=document.getElementById('status');
+  const back=document.getElementById('back');
+  const qs=new URLSearchParams(location.search);
+  const hash=new URLSearchParams(location.hash.replace(/^#/,'').replace(/^\?/,'') );
+  const next=qs.get('next')==='library'?'library.html':'index.html';
+  back.href='login.html?next='+encodeURIComponent(next==='library.html'?'library':'');
+  const waitForSession=async(ms=4000)=>{
+    const started=Date.now();
+    while(Date.now()-started<ms){
+      const {data,error}=await VAULT_AUTH.client.auth.getSession();
+      if(error) throw error;
+      if(data?.session) return data.session;
+      await new Promise(r=>setTimeout(r,300));
+    }
+    return null;
+  };
+  const setSessionFromHash=async()=>{
+    const access_token=hash.get('access_token');
+    const refresh_token=hash.get('refresh_token');
+    if(!access_token || !refresh_token) return null;
+    const {data,error}=await VAULT_AUTH.client.auth.setSession({access_token,refresh_token});
+    if(error) throw error;
+    return data?.session||null;
+  };
+  try{
+    if(!window.VAULT_AUTH?.client) throw new Error('VAULT authentication is not ready.');
+    const oauthError=qs.get('error_description') || hash.get('error_description') || qs.get('error') || hash.get('error');
+    if(oauthError) throw new Error(oauthError.replace(/\+/g,' '));
+
+    let session=null;
+    const code=qs.get('code');
+    if(code){
+      const {data,error}=await VAULT_AUTH.client.auth.exchangeCodeForSession(code);
+      if(error) throw error;
+      session=data?.session||null;
+    }
+    if(!session) session=await setSessionFromHash();
+    if(!session) session=await waitForSession(4500);
+    if(!session) throw new Error('Google sign-in completed, but VAULT did not receive the session. Check that this callback URL is allowed in Supabase: /auth-callback.html');
+
+    await VAULT_AUTH.ensureProfile(session.user);
+    history.replaceState({},document.title,location.pathname);
+    status.textContent='Success. Opening VAULT…';
+    window.location.replace(next);
+  }catch(err){
+    console.error('OAuth callback error:',err);
+    status.textContent=err.message||'Google sign-in could not be completed. Please try again.';
+    status.classList.add('err');
+  }
+})();
+</script></body></html>
