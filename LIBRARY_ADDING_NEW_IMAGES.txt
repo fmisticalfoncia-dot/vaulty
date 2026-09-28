@@ -1,0 +1,7 @@
+VAULT LIBRARY - FUTURE IMAGE ADDITIONS
+
+The public Library is intentionally one continuous editorial collection. Do not split it into Vault 01/02/etc.
+
+For each new image, add one new object to the `looks` array in library.html with: id, title, description, prompt, and image path. Keep the image in the assets folder. The masonry layout will automatically place it without cropping.
+
+Current collection: 38 looks. The hero remains limited to 3 images on the homepage. New images belong in the Library, not the homepage hero.

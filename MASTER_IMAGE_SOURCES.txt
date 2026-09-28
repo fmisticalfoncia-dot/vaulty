@@ -1,0 +1,50 @@
+VAULT™ MASTER IMAGE SOURCES
+
+The Library uses the 46 Cloudinary source URLs supplied by the owner on 23 Sep 2026. These are kept as the canonical image references so the originals are not silently replaced, cropped, renamed into different visuals, or lost. Homepage hero remains exactly 3 separate local hero assets.
+
+1. https://res.cloudinary.com/mjmmjbqu/image/upload/v1790152569/ChatGPT_Image_Sep_22_2026_03_08_06_AM_iqwohw.png
+2. https://res.cloudinary.com/mjmmjbqu/image/upload/v1790152557/ChatGPT_Image_Sep_22_2026_02_59_45_AM_n3gij1.png
+3. https://res.cloudinary.com/mjmmjbqu/image/upload/v1790152548/ChatGPT_Image_Sep_22_2026_02_59_26_AM_poraos.png
+4. https://res.cloudinary.com/mjmmjbqu/image/upload/v1790152536/ChatGPT_Image_Sep_22_2026_02_58_47_AM_qslvzv.png
+5. https://res.cloudinary.com/mjmmjbqu/image/upload/v1790152524/ChatGPT_Image_Sep_22_2026_02_59_07_AM_aimfjr.png
+6. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789628336/WhatsApp_Image_2026-09-16_at_13.19.34_o2gyot.jpg
+7. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789455582/WhatsApp_Image_2026-09-14_at_00.09.43_1_xrabsc.jpg
+8. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789455530/WhatsApp_Image_2026-09-14_at_00.09.44_2_wozdtb.jpg
+9. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789455565/WhatsApp_Image_2026-09-14_at_00.09.44_iagfpw.jpg
+10. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789589623/WhatsApp_Image_2026-09-16_at_20.51.36_kcayhi.jpg
+11. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789625334/file_0000000070c4820882cbd4f0133ae19f_l4q7sr.png
+12. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627195/WhatsApp_Image_2026-09-16_at_12.51.36_1_xqvfej.jpg
+13. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627172/WhatsApp_Image_2026-09-16_at_12.51.36_hbidwj.jpg
+14. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627417/WhatsApp_Image_2026-09-16_at_12.51.37_1_logqak.jpg
+15. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627229/WhatsApp_Image_2026-09-16_at_12.51.37_eb0zou.jpg
+16. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627401/WhatsApp_Image_2026-09-16_at_12.51.38_hee0lp.jpg
+17. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629692/WhatsApp_Image_2026-09-16_at_12.51.39_1_hvzbfu.jpg
+18. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629681/WhatsApp_Image_2026-09-16_at_12.51.39_2_b5kuui.jpg
+19. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629704/WhatsApp_Image_2026-09-16_at_12.51.39_m6xshs.jpg
+20. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789627620/WhatsApp_Image_2026-09-16_at_12.51.41_yuqsn4.jpg
+21. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629621/WhatsApp_Image_2026-09-16_at_12.51.42_1_wybqnw.jpg
+22. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629607/WhatsApp_Image_2026-09-16_at_12.51.42_2_cxqgye.jpg
+23. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629589/WhatsApp_Image_2026-09-16_at_12.51.42_3_xdf9md.jpg
+24. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629578/WhatsApp_Image_2026-09-16_at_12.51.42_4_cvormk.jpg
+25. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629651/WhatsApp_Image_2026-09-16_at_12.51.42_lgtkhe.jpg
+26. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629544/WhatsApp_Image_2026-09-16_at_12.51.43_1_izqmpr.jpg
+27. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629530/WhatsApp_Image_2026-09-16_at_12.51.43_2_jsghxs.jpg
+28. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629560/WhatsApp_Image_2026-09-16_at_12.51.43_hov2mv.jpg
+29. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789634307/WhatsApp_Image_2026-09-17_at_00.29.59_wrbxo7.jpg
+30. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789634296/WhatsApp_Image_2026-09-17_at_00.29.59_1_qrjwca.jpg
+31. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629492/WhatsApp_Image_2026-09-16_at_12.51.44_3_lj3r8s.jpg
+32. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629480/WhatsApp_Image_2026-09-16_at_12.51.44_4_euvbpe.jpg
+33. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629457/WhatsApp_Image_2026-09-16_at_12.51.44_5_wrcuws.jpg
+34. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629516/WhatsApp_Image_2026-09-16_at_12.51.44_qmytfv.jpg
+35. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629505/WhatsApp_Image_2026-09-16_at_12.51.45_1_mpmjw0.jpg
+36. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629423/WhatsApp_Image_2026-09-16_at_12.51.45_2_zhlaib.jpg
+37. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629412/WhatsApp_Image_2026-09-16_at_12.51.45_3_bn5aii.jpg
+38. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629301/WhatsApp_Image_2026-09-16_at_12.51.45_4_ogjdwf.jpg
+39. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789629446/WhatsApp_Image_2026-09-16_at_12.51.45_aqm98w.jpg
+40. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789628860/WhatsApp_Image_2026-09-16_at_12.51.46_1_aq7v0z.jpg
+41. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789628800/WhatsApp_Image_2026-09-16_at_12.51.46_2_cqk5cz.jpg
+42. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789634287/WhatsApp_Image_2026-09-17_at_00.29.59_2_tfgxx8.jpg
+43. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789628756/WhatsApp_Image_2026-09-16_at_12.51.47_1_pssmpg.jpg
+44. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789634276/WhatsApp_Image_2026-09-17_at_00.29.59_3_soowj5.jpg
+45. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789650633/WhatsApp_Image_2026-09-16_at_13.19.33_asbtc8.jpg
+46. https://res.cloudinary.com/mjmmjbqu/image/upload/v1789628328/WhatsApp_Image_2026-09-16_at_13.19.34_1_nrafzd.jpg']
