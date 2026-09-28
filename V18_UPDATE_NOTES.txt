@@ -1,0 +1,11 @@
+VAULT V18 UPDATE NOTES
+
+V18 is cumulative from V15/V16/V17. No existing Library looks were intentionally removed.
+
+Fixes in V18:
+- Landing-page "Enter the Vault" links now check the real Supabase session before navigation.
+- Signed-out visitors are sent to Login with next=library; signed-in visitors go directly to Library.
+- Mobile navigation touch behavior and layering hardened.
+- Mobile CTA touch targets hardened.
+- Library auth-gate copy updated to reflect that Email auth is live and Google OAuth is pending provider setup.
+- Existing Supabase/database and cumulative update structure preserved.

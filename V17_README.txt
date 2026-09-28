@@ -1,0 +1,1 @@
+VAULT V17 = V15 visual/layout/image base preserved, with Supabase connection added. Keep the same assets and library data. Supabase URL and public key are in supabase-config.js. Google provider still must be enabled in Supabase.

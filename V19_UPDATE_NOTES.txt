@@ -1,0 +1,2 @@
+
+V19 cumulative: keeps V18 and fixes Library image-click modal/save action.
