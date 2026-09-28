@@ -1,0 +1,1 @@
+VAULT V22 is the cumulative launch candidate: V15–V21 foundation plus final pricing/checkout flow, launch documentation, and external-integration handoff points. Paid billing is not claimed live until a payment provider is configured and prices are finalized. Custom domain remains optional while the Vercel production URL is live.
